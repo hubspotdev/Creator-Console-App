@@ -64,7 +64,7 @@ If this repo includes code snapshots or tags, check out the matching episode sta
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
 | 01 | Account Setup & Developer Environment | HubSpot accounts, GCP projects, CLI setup | Published | `https://youtu.be/GAA7X7NhCLQ` |
-| 02 | Git, Governance & AI Rules | repo setup, workflow, AI-assisted development patterns | `Planned` | `ADD_LINKS` |
+| 02 | Git, Governance & AI Rules | repo setup, workflow, AI-assisted development patterns | Published | `https://youtu.be/u6wsjFGf3pE` |
 
 ### Data Model
 
