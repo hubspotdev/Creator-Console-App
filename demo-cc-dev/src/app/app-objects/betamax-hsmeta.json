@@ -1,0 +1,78 @@
+{
+  "uid": "app-object-demo-cc-dev",
+  "type": "app-object",
+  "config": {
+    "name": "BETAMAX",
+    "description": "A Record object used to sync with YouTube",
+    "singularForm": "Video",
+    "pluralForm": "Videos",
+    "appPrefix": "Blockbuster",
+    "primaryDisplayLabelPropertyName": "title",
+    "secondaryDisplayLabelPropertyNames": [
+      "youtube_video_id",
+      "status"
+    ],
+    "properties": [
+      {
+        "name": "title",
+        "label": "Video Title",
+        "type": "string",
+        "fieldType": "text",
+        "description": "The title of the YouTube video"
+      },
+      {
+        "name": "youtube_video_id",
+        "label": "YouTube Video ID",
+        "type": "string",
+        "fieldType": "text",
+        "description": "The unique YouTube video identifier",
+        "hasUniqueValue": true
+      },
+      {
+        "name": "video_description",
+        "label": "Description",
+        "type": "string",
+        "fieldType": "textarea",
+        "description": "The video description for YouTube"
+      },
+      {
+        "name": "status",
+        "label": "Publishing Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "description": "Current state of the video",
+        "options": [
+          {
+            "label": "Draft",
+            "value": "draft"
+          },
+          {
+            "label": "Scheduled",
+            "value": "scheduled"
+          },
+          {
+            "label": "Public",
+            "value": "public"
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "hasRecordPage": true,
+      "allowsUserCreatedRecords": true,
+      "hasEngagements": false
+    },
+    "defaultCreateFormFields": [
+      {
+        "propertyName": "title",
+        "isRequired": true,
+        "isRemovable": false
+      },
+      {
+        "propertyName": "video_description",
+        "isRequired": false,
+        "isRemovable": true
+      }
+    ]
+  }
+}
