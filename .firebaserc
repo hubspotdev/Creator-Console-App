@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "root-unison-492817-j1",
+    "dev": "root-unison-492817-j1",
+    "prod": "mindful-acre-492817-c0"
+  }
+}
