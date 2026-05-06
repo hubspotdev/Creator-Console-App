@@ -32,8 +32,8 @@
 
 | Resource | Dev Value | Prod Value | Status | Notes |
 |----------|-----------|------------|--------|-------|
-| Firebase Project ID | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 4 |
-| Functions Base URL | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 4 |
+| Firebase Project ID | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 6 |
+| Functions Base URL | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 6 |
 
 ---
 
