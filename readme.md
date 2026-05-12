@@ -63,74 +63,92 @@ If this repo includes code snapshots or tags, check out the matching episode sta
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 01 | Account Setup & Developer Environment | HubSpot accounts, GCP projects, CLI setup | Published | `https://youtu.be/GAA7X7NhCLQ` |
-| 02 | Git, Governance & AI Rules | repo setup, workflow, AI-assisted development patterns | `Planned` | `ADD_LINKS` |
+| 01 | Account Setup & Developer Environment | HubSpot accounts, GCP projects, CLI setup | Published | https://youtu.be/GAA7X7NhCLQ |
+| 02 | Git, Governance & AI Rules | repo setup, workflow, AI-assisted development patterns | Published | https://youtu.be/u6wsjFGf3pE |
 
-### Data Model
+### Project Setup & Data Model
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 03 | App Objects: Defining Custom CRM Data | custom CRM schema and approval prep | `Planned` | `ADD_LINKS` |
-| 04 | Firebase Scaffold & Backend Setup | Firebase project, Firestore, backend structure | `Planned` | `ADD_LINKS` |
-| 05 | CI/CD: Automated Dev & Prod Deploys | GitHub Actions, deploy workflow, environment separation | `Planned` | `ADD_LINKS` |
-| 06 | Scopes, First Deployment & Approval | app scopes, first upload, approval handoff | `Planned` | `ADD_LINKS` |
+| 03 | HubSpot Project Setup & App Registration | `hsproject.json`, platform versioning, dev/prod app registration | Published | https://youtu.be/ON_HPcc6Hv8 |
+| 04 | App Object Approval (with Marina Lupin) | guest walkthrough of the App Object review process | Published | https://youtu.be/b8pz4qR5f-U |
+| 05 | App Object Schema Design | custom CRM schema design end-to-end | Published | `ADD_LINKS` |
+
+### Backend & Deployment
+
+| # | Episode | Focus | Status | Resources |
+|---|---------|-------|--------|-----------|
+| 06 | Firebase Scaffold & Backend Setup | Firebase project, Firestore, backend structure | Scheduled — 2026-05-08 | `ADD_LINKS` |
+| 07 | CI/CD: Automated Dev & Prod Deploys | GitHub Actions, deploy workflow, environment separation | Scheduled — 2026-05-14 | `ADD_LINKS` |
+| 08 | Scopes, First Deployment & Approval | app scopes, first upload, approval handoff | `Planned` | `ADD_LINKS` |
 
 ### Authentication
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 07 | HubSpot OAuth Flow | HubSpot OAuth implementation | `Planned` | `ADD_LINKS` |
-| 08 | External OAuth & Identity Mapping | Google/YouTube OAuth and identity mapping | `Planned` | `ADD_LINKS` |
+| 09 | HubSpot OAuth Flow | HubSpot OAuth v3 implementation | `Planned` | `ADD_LINKS` |
+| 10 | External OAuth & Identity Mapping | Google/YouTube OAuth and identity mapping | `Planned` | `ADD_LINKS` |
+
+### Showcase
+
+| # | Episode | Focus | Status | Resources |
+|---|---------|-------|--------|-----------|
+| 11 | AI Content Studio (In-Series Hero) | narrative payoff tying OAuth, scopes, deploy, and AI together | `Planned` | `ADD_LINKS` |
 
 ### UI Extensions
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 09 | App Home: Your App's Dashboard | native HubSpot app homepage | `Planned` | `ADD_LINKS` |
-| 10 | App Settings: Configuration UI | settings UI and connection management | `Planned` | `ADD_LINKS` |
-| 11 | CRM Cards: Extending Record Pages | custom record cards and data display | `Planned` | `ADD_LINKS` |
-| 12 | Advanced Cards: Iframes & File Upload | iframe panels and advanced browser capabilities | `Planned` | `ADD_LINKS` |
+| 12 | App Home: Your App's Dashboard | native HubSpot app homepage | `Planned` | `ADD_LINKS` |
+| 13 | App Settings: Configuration UI | settings UI and connection management | `Planned` | `ADD_LINKS` |
+| 14 | CRM Cards: Extending Record Pages | App Cards, legacy CRM card migration | `Planned` | `ADD_LINKS` |
+| 15 | Advanced Cards: Iframes & File Upload | iframe panels and advanced browser capabilities | `Planned` | `ADD_LINKS` |
 
 ### Data Synchronization
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 13 | Background Sync Engine | scheduled sync and data refresh patterns | `Planned` | `ADD_LINKS` |
-| 14 | Analytics & ETag Optimization | analytics sync and efficiency patterns | `Planned` | `ADD_LINKS` |
+| 16 | Background Sync Engine | scheduled sync, Webhooks Journal patterns | `Planned` | `ADD_LINKS` |
+| 17 | Analytics & ETag Optimization | analytics sync and efficiency patterns | `Planned` | `ADD_LINKS` |
 
 ### AI Integration
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 15 | Gemini Backend Setup | Gemini setup and structured outputs | `Planned` | `ADD_LINKS` |
-| 16 | AI-Powered CRM Cards | AI-assisted suggestions inside HubSpot cards | `Planned` | `ADD_LINKS` |
+| 18 | Gemini Backend Setup | Gemini setup and structured outputs | `Planned` | `ADD_LINKS` |
+| 19 | AI-Powered CRM Cards | AI-assisted suggestions inside HubSpot cards | `Planned` | `ADD_LINKS` |
 
 ### Attribution
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 17 | Campaign & Revenue Attribution | UTM tracking and ROI attribution | `Planned` | `ADD_LINKS` |
+| 20 | Campaign & Revenue Attribution | UTM tracking and ROI attribution | `Planned` | `ADD_LINKS` |
 
 ### Platform Integration
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 18 | App Events: Notifying the Ecosystem | app events and timeline patterns | `Planned` | `ADD_LINKS` |
-| 19 | Workflow Actions: Automating Operations | workflow actions and automation hooks | `Planned` | `ADD_LINKS` |
+| 21 | App Events: Notifying the Ecosystem | app events and timeline patterns | `Planned` | `ADD_LINKS` |
+| 22 | Workflow Actions: Automating Operations | workflow actions, Agent Tools foundation | `Planned` | `ADD_LINKS` |
 
 ### Production
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 20 | Production Readiness & Marketplace | production hardening and marketplace readiness | `Planned` | `ADD_LINKS` |
+| 23 | Production Readiness & Marketplace | production hardening and Marketplace listing readiness | `Planned` | `ADD_LINKS` |
 
-### Advanced / Optional
+### Series Close
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 21 | Genkit Flows | multi-step Genkit flows | `Planned` | `ADD_LINKS` |
-| 22 | Google Docs Sync | Google Docs integration and sync patterns | `Planned` | `ADD_LINKS` |
-| 23 | Agent Cards (Planner/Scriptwriter/Director) | multi-agent UI patterns in HubSpot | `Planned` | `ADD_LINKS` |
+| 24 | Genkit Flows | multi-step Genkit orchestration (series close) | `Planned` | `ADD_LINKS` |
+
+### Advanced / Deferred
+
+| # | Episode | Focus | Status | Resources |
+|---|---------|-------|--------|-----------|
+| 25 | Google Docs Sync | bidirectional Drive-webhook sync patterns | Deferred — Q4 2026 (optional) | `ADD_LINKS` |
+| 26 | Agent Cards (Planner/Scriptwriter/Director) | multi-agent UI patterns in HubSpot | Deferred — Q1 2027 | `ADD_LINKS` |
 
 ## Recommended Release Workflow
 
@@ -174,5 +192,5 @@ You can tune this section based on what you actually publish in the public repo.
 Delete this section before publishing if you want a cleaner public README.
 
 - Replace `ADD_*` placeholders.
-- If you do not plan to expose all 23 episodes upfront, trim the tracker to only the currently announced scope.
+- If you do not plan to expose all 24 episodes (+ 2 deferred) upfront, trim the tracker to only the currently announced scope.
 - If the public repo contains episode branches or tags, add them in the `Resources` column.
