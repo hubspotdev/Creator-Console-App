@@ -33,7 +33,7 @@
 | Resource | Dev Value | Prod Value | Status | Notes |
 |----------|-----------|------------|--------|-------|
 | Firebase Project ID | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 6 |
-| Functions Base URL | [TO_BE_FILLED] | [TO_BE_FILLED] | ⏳ | Video 6 |
+| Functions Base URL | https://us-central1-root-unison-492817-j1.cloudfunctions.net | https://us-central1-mindful-acre-492817-c0.cloudfunctions.net | ✅ | Created in Video 6 |
 
 ---
 
