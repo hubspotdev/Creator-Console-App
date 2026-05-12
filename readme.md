@@ -4,7 +4,6 @@ Public companion repo for the training series on building real apps on HubSpot.
 
 This repo is the audience-facing side of the project. It is meant to help developers follow the series, find episode resources, and track the build as new videos are released.
 
-> Replace the placeholders in this file before publishing.
 
 ## What This Series Is
 
@@ -72,13 +71,13 @@ If this repo includes code snapshots or tags, check out the matching episode sta
 |---|---------|-------|--------|-----------|
 | 03 | HubSpot Project Setup & App Registration | `hsproject.json`, platform versioning, dev/prod app registration | Published | https://youtu.be/ON_HPcc6Hv8 |
 | 04 | App Object Approval (with Marina Lupin) | guest walkthrough of the App Object review process | Published | https://youtu.be/b8pz4qR5f-U |
-| 05 | App Object Schema Design | custom CRM schema design end-to-end | Published | `ADD_LINKS` |
+| 05 | App Object Schema Design | custom CRM schema design end-to-end | Published | https://youtu.be/JbfkzrYFarE |
 
 ### Backend & Deployment
 
 | # | Episode | Focus | Status | Resources |
 |---|---------|-------|--------|-----------|
-| 06 | Firebase Scaffold & Backend Setup | Firebase project, Firestore, backend structure | Scheduled — 2026-05-08 | `ADD_LINKS` |
+| 06 | Firebase Scaffold & Backend Setup | Firebase project, Firestore, backend structure | Scheduled — 2026-05-08 | https://youtu.be/aELfcdILhJw |
 | 07 | CI/CD: Automated Dev & Prod Deploys | GitHub Actions, deploy workflow, environment separation | Scheduled — 2026-05-14 | `ADD_LINKS` |
 | 08 | Scopes, First Deployment & Approval | app scopes, first upload, approval handoff | `Planned` | `ADD_LINKS` |
 
@@ -150,47 +149,12 @@ If this repo includes code snapshots or tags, check out the matching episode sta
 | 25 | Google Docs Sync | bidirectional Drive-webhook sync patterns | Deferred — Q4 2026 (optional) | `ADD_LINKS` |
 | 26 | Agent Cards (Planner/Scriptwriter/Director) | multi-agent UI patterns in HubSpot | Deferred — Q1 2027 | `ADD_LINKS` |
 
-## Recommended Release Workflow
 
-Each time you release an episode:
 
-1. change that episode status from `Planned` to `Published`
-2. add the live YouTube link in `Resources`
-3. add any matching docs, branch, tag, or code snapshot links
-4. update the short summary below if the public repo has meaningful new assets
 
-## Published Now
-
-Use this section for the currently live entry points.
-
-- `ADD_EPISODE_01_LINK`
-- `ADD_EPISODE_02_LINK`
-- `ADD_HERO_VIDEO_LINK`
-
-## Repo Contents
-
-You can tune this section based on what you actually publish in the public repo.
-
-- walkthrough notes
-- code snapshots or tags by episode
-- starter templates
-- reference configs
-- episode-specific assets
 
 ## Notes For Viewers
 
 - You do not need to build the exact same app to get value from the series.
 - The point is to learn the transferable patterns behind real HubSpot app development.
 - If you build your own version, copy the pattern, not the nouns.
-
-## License
-
-`ADD_LICENSE`
-
-## Maintainer Notes
-
-Delete this section before publishing if you want a cleaner public README.
-
-- Replace `ADD_*` placeholders.
-- If you do not plan to expose all 24 episodes (+ 2 deferred) upfront, trim the tracker to only the currently announced scope.
-- If the public repo contains episode branches or tags, add them in the `Resources` column.
